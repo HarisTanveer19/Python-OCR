@@ -1,41 +1,10 @@
-aay Tt
-aay Tt
-aay Tt
-TO
-NSU
-aay Tt
-aay Tt
-aay Tt
-aay Tt
-aay Tt
-aay Tt
-aay Tt
-aay Tt
-aay Tt
-patio
-
- 
-
-127.0.0.1:52872 - "POST / HTTP/1.1" 200 OK
-127.0.0.1:33308 - "GET /docs HTTP/1.1" 200 OK
-127.0.0.1:33308 - "GET /openapi.json HTTP/1.1" 200 OK
-127.0.0.1:39556 - "POST / HTTP/1.1" 200 OK
-WatchFiles detected changes in 'main.py'. Reloading...
-iT Une e mnTe mn Le TTA)
-
-Waiting for application shutdown.
-
-Application shutdown complete.
-
-Finished server process [6983]
-
-Started server process [7369]
-
-Waiting for application startup.
-
-Application startup complete.
-
-127.0.0.1:44028 - "GET /docs HTTP/1.1" 200 OK
-127.0.0.1:44028 - "GET /openapi.json HTTP/1.1" 200 OK
-127.0.0.1:38142 - “POST / HTTP/1.1" 200 OK
+The most commonly-used values of mode are |*r*/ for reading, "w*) for writing (truncating
+the file if it already exists), and |"a") for appending (which on some Unix systems means
+that all writes append to the end of the file regardless of the current seek position). If mode
+is omitted, it defaults to |*F*). The default is to use text mode, which may convert "Xn"
+characters to a platform-specific representation on writing and back on reading. Thus,
+when opening a binary file, you should append |*B*) to the mode value to open the file in
+binary mode, which will improve portability. (Appending |"b*) is useful even on systems
+that don’t treat binary and text files differently, where it serves as documentation.) See
+below for more possible values of mode.
 
