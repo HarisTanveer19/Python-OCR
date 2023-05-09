@@ -9,7 +9,8 @@ app = FastAPI()
 
 
 IMG_DIR = "images/"
-img_path = "/home/haris/Desktop/FastAPI_OCR/app/images/test2.png"
+# img_path = "/home/haris/Desktop/FastAPI_OCR/app/images/test2.png"
+img_path = "./images/test2.png"
 text_path = "/home/haris/Desktop/FastAPI_OCR/app/Text"
 
 @app.post('/')
@@ -23,7 +24,7 @@ async def Upload_img(file: UploadFile = File(...)):
     img = Image.open(img_path)
     result = pytesseract.image_to_string(img)
     # Creating text file and saving
-    f = open("/home/haris/Desktop/FastAPI_OCR/app/Text/result.txt", "w")
+    f = open("./Text/result.txt", "w")
     f.write(result)
     f.close
 
